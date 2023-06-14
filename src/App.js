@@ -10,7 +10,7 @@ function App() {
     <div className="App bg-primary vh-100">
       <Routes>
         <Route  path="/" element={<Home/>} />
-        <Route  path="/teil-1/:pruefung/:tn" element={<Teil1/>} />
+        <Route  path="/teil-1/:pruefung/:tns/:tn" element={<Teil1/>} />
       </Routes>      
     </div>
   );
