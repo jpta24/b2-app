@@ -1,0 +1,52 @@
+
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Create your own map
+$custom-colors: (
+	'f-primary': #900,
+	'f-secondary': green,
+);
+
+////////     SCROLLBAR    //////////
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+.title {
+    font-size: 2.6rem;
+    font-weight: bolder;
+}
+
+.card-btn {
+    background-color: #bfbebe;
+    border: 1px solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}

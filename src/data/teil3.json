@@ -1,0 +1,22 @@
+[
+	{
+		"situation": "Sie arbeiten in einem Möbelhaus. Einige Kundinnen und Kunden haben sich über die Lieferung der Möbel beschwert: Die Fahrer sin nicht pünktlich und die Möbel sind beschädigt",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["beschädigte Möbel", "was tun?"],
+			["Kunden", "wie kontaktieren?, was anbieten?"],
+			["Fahrer", "wie ansprechen? Was fordern?"],
+			["langfristig", "Qualitätskontrolle? Alternativen dazu?"]
+		]
+	},
+	{
+		"situation": "Sie arbeitenschon länger mit einem Installaturbetrieb zusammen. Seit einiger Zeit arbeittärt die Firmasehr unzuverlässig, Termine werden nicht eingehalten, auch die Arbeiten werden schlecht erledigt. So wurde zum Beispieldie Heizungsanlage mangelhaftrepariert.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Beschwerden", "welche Fehler? welche Mängel?"],
+			["Installateur", "wie Kontakt aufnehmen? wer kontaktiert?"],
+			["Ursachen", "nach Gründen fragen? was verlangen?"],
+			["in Zukunft", "Installateur welchseln?"]
+		]
+	}
+]
