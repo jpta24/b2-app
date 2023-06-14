@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FiUser, FiUsers } from 'react-icons/fi';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 const Home = () => {
 	const navigate = useNavigate();
 	const [step, setStep] = useState(1);
