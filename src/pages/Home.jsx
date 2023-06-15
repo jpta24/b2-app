@@ -12,7 +12,7 @@ const Home = () => {
 		showModal: false,
 	};
 	const [homeState, setHomeState] = useState(initialState);
-    
+
 	const randomNumber = () => {
 		const options = ['A', 'B'];
 		const randomOption = Math.floor(Math.random() * options.length);
@@ -86,13 +86,13 @@ const Home = () => {
 					</div>
 					<div
 						className='col-6 mx-auto p-3 h4 card-btn my-2'
-						onClick={() => navigate(`/teil-1/2/${homeState.tns}/${homeState.tn}`)}
+						onClick={() => navigate(`/teil-2/2/${homeState.tns}/${homeState.tn}`)}
 					>
 						Teil II
 					</div>
 					<div
 						className='col-6 mx-auto p-3 h4 card-btn my-2'
-						onClick={() => navigate(`/teil-1/3/${homeState.tns}/${homeState.tn}`)}
+						onClick={() => navigate(`/teil-1/2/${homeState.tns}/${homeState.tn}`)}
 					>
 						Teil III
 					</div>
