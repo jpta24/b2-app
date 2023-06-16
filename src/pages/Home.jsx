@@ -92,7 +92,7 @@ const Home = () => {
 					</div>
 					<div
 						className='col-6 mx-auto p-3 h4 card-btn my-2'
-						onClick={() => navigate(`/teil-1/2/${homeState.tns}/${homeState.tn}`)}
+						onClick={() => navigate(`/teil-3/3/${homeState.tns}/${homeState.tn}`)}
 					>
 						Teil III
 					</div>

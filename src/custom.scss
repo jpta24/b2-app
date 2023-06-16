@@ -36,6 +36,11 @@ $custom-colors: (
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
+.body-side {
+    min-height: 100vh;
+    padding-bottom: 10px;
+}
+
 .title {
     font-size: 2.6rem;
     font-weight: bolder;
@@ -49,4 +54,17 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+}
+input {
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #bfbebe;
+    color: black;
+    font-size: 2rem;
+}
+
+.text-font {
+    line-height: 23px;
+    font-size: 19px;
 }

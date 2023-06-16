@@ -10,13 +10,113 @@
 		]
 	},
 	{
-		"situation": "Sie arbeitenschon länger mit einem Installaturbetrieb zusammen. Seit einiger Zeit arbeittärt die Firmasehr unzuverlässig, Termine werden nicht eingehalten, auch die Arbeiten werden schlecht erledigt. So wurde zum Beispieldie Heizungsanlage mangelhaftrepariert.",
+		"situation": "Sie arbeiten schon länger mit einem Installaturbetrieb zusammen. Seit einiger Zeit arbeittärt die Firmasehr unzuverlässig, Termine werden nicht eingehalten, auch die Arbeiten werden schlecht erledigt. So wurde zum Beispieldie Heizungsanlage mangelhaftrepariert.",
 		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
 		"stickpunkte": [
 			["Beschwerden", "welche Fehler? welche Mängel?"],
 			["Installateur", "wie Kontakt aufnehmen? wer kontaktiert?"],
 			["Ursachen", "nach Gründen fragen? was verlangen?"],
 			["in Zukunft", "Installateur welchseln?"]
+		]
+	},
+	{
+		"situation": "Sie arbeiten in einem Kundenservice-Center eines Telekommunikationsunternehmens. In den letzten Wochen haben viele Kunden über schlechten Service und lange Wartezeiten beim Kundensupport beschwert. Die Kundenzufriedenheit ist stark gesunken.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Feedback der Kunden analysieren und Muster erkennen"],
+			["Kontrollen", "Maßnahmen zur Verbesserung des Kundenservice entwickeln"],
+			["Maßnahmen", "Schulungen für Mitarbeiter zum besseren Umgang mit Kunden vorschlagen"],
+			["in Zukunft", "Implementierung eines effizienteren Ticketsystems oder einer Self-Service-Plattform erwägen"]
+		]
+	},
+	{
+		"situation": "Sie arbeiten in einem Marketingteam eines Unternehmens. Ihr letzter Werbekampagne hat nicht die erwarteten Ergebnisse erzielt. Die Verkaufszahlen sind stagniert und es gibt viele Rückmeldungen von Kunden, die die Werbung als verwirrend empfunden haben.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Kundenfeedback analysieren und verstehen, warum die Werbung nicht erfolgreich war"],
+			["Kontrollen", "Zielgruppenanalyse überprüfen und Anpassungen vornehmen"],
+			["Maßnahmen", "Klarere Botschaften und Call-to-Actions in der Werbung entwickeln"],
+			["in Zukunft", "Neue Marketingkanäle oder -strategien in Betracht ziehen"]
+		]
+	},
+	{
+		"situation": "Sie arbeiten in einem Projektteam eines IT-Unternehmens. In einem aktuellen Projekt treten jedoch regelmäßig Verzögerungen auf, da wichtige Informationen nicht rechtzeitig an das Team weitergegeben werden. Dadurch gerät der Zeitplan in Gefahr und die Teammitglieder sind frustriert.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Kommunikationswege im Team überprüfen und verbessern"],
+			["Kontrollen", "Regelmäßige Meetings oder Status-Updates einführen, um Informationen auszutauschen"],
+			["Maßnahmen", "Verantwortlichkeiten und Zuständigkeiten klar festlegen"],
+			["in Zukunft", "Kommunikationstools oder -plattformen nutzen, um den Informationsfluss zu erleichtern"]
+		]
+	},
+	{
+		"situation": "Sie sind Teil eines Vertriebsteams in einem Unternehmen. In den letzten Monaten haben Sie Schwierigkeiten, Ihre Verkaufsziele zu erreichen, da es zunehmend schwieriger geworden ist, potenzielle Kunden zu erreichen und von Ihren Produkten zu überzeugen.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Marktanalyse durchführen, um Änderungen im Kundenverhalten zu verstehen"],
+			["Kontrollen", "Neue Vertriebsstrategien entwickeln, die auf die aktuellen Marktbedingungen abgestimmt sind"],
+			["Maßnahmen", "Gezieltes Marketing und Kundenakquise planen, um die Sichtbarkeit und Reichweite zu erhöhen"],
+			["in Zukunft", "Kundenzufriedenheit und Kundenbindung stärken, um wiederkehrende Geschäfte zu fördern"]
+		]
+	},
+	{
+		"situation": "Sie arbeiten in einem Softwareunternehmen. Vor kurzem gab es einen größeren Systemausfall, der zu erheblichen Störungen bei den Kunden führte. Das Unternehmen steht nun vor der Herausforderung, das Vertrauen der Kunden wiederherzustellen und das System zu stabilisieren.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Ursachen des Systemausfalls identifizieren und beheben"],
+			["Kontrollen", "Kommunikationsstrategie entwickeln, um die Kunden über den Vorfall zu informieren und ihnen Vertrauen zu vermitteln"],
+			["Maßnahmen", "Maßnahmen zur Sicherung der Systemstabilität implementieren, z.B. durch regelmäßige Wartung und Tests"],
+			["in Zukunft", "Kundensupport verstärken, um bei auftretenden Problemen schnell reagieren zu können"]
+		]
+	},
+	{
+		"situation": "Sie sind Teil eines Projektteams in einem Architekturbüro. Das Team arbeitet an einem großen Bauprojekt, bei dem es zu Verzögerungen und Problemen gekommen ist. Der Kunde ist unzufrieden und fordert eine schnelle Lösung.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Probleme und Verzögerungen analysieren und die Ursachen ermitteln"],
+			["Kontrollen", "Kommunikation mit dem Kunden verbessern, um ihn über den Stand des Projekts und mögliche Lösungen auf dem Laufenden zu halten"],
+			["Maßnahmen", "Maßnahmen zur Beschleunigung des Projekts oder zur Kompensation der Verzögerungen vorschlagen"],
+			["in Zukunft", "Engere Zusammenarbeit im Team, um effizientere Arbeitsabläufe zu schaffen und die Qualität der Arbeit sicherzustellen"]
+		]
+	},
+	{
+		"situation": "Sie arbeiten als Erzieher/in in einer Kita. In den letzten Wochen gab es vermehrt Konflikte zwischen den Kindern, insbesondere beim Teilen von Spielzeug und beim Aufteilen von Aufmerksamkeit der Betreuer. Die Situation wirkt sich negativ auf das Gruppenklima aus und erfordert eine Lösung.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Konfliktursachen analysieren und verstehen"],
+			["Kontrollen", "Kommunikation mit den Kindern fördern, um sie zum Teilen und zur gegenseitigen Rücksichtnahme zu ermutigen"],
+			["Maßnahmen", "Aktivitäten und Spiele einführen, die die sozialen Fähigkeiten und das Gruppengefühl stärken"],
+			["in Zukunft", "Eltern einbeziehen und über die Situation informieren, um auch zu Hause eine positive Verhaltensentwicklung zu unterstützen"]
+		]
+	},
+	{
+		"situation": "Sie arbeiten als Kellner/in in einem Restaurant. In letzter Zeit haben sich Beschwerden von Kunden gehäuft, insbesondere in Bezug auf lange Wartezeiten, falsche Bestellungen und unfreundliches Personal. Das Restaurant möchte die Servicequalität verbessern und die Kundenzufriedenheit steigern.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Abläufe im Restaurant überprüfen und effizientere Arbeitsweisen einführen, um Wartezeiten zu reduzieren"],
+			["Kontrollen", "Schulungen für das Personal anbieten, um Freundlichkeit und Kommunikation zu verbessern"],
+			["Maßnahmen", "Beschwerden ernst nehmen und angemessen darauf reagieren, z.B. durch Entschuldigung, Rückerstattungen oder kostenlose Zusatzleistungen"],
+			["in Zukunft", "Feedback von Kunden aktiv einholen, um Verbesserungspotenziale zu identifizieren und umzusetzen"]
+		]
+	},
+	{
+		"situation": "Sie arbeiten in einer Möbelfirma. In den letzten Wochen haben sich vermehrt Beschwerden von Kunden über verspätete Lieferungen und beschädigte Möbelstücke gehäuft. Dies hat zu einem Rückgang der Kundenzufriedenheit geführt und erfordert eine angemessene Reaktion.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Ursachen für die verspäteten Lieferungen identifizieren und beheben"],
+			["Kontrollen", "Qualitätskontrollmaßnahmen für die Möbelstücke überprüfen und verbessern"],
+			["Maßnahmen", "Kommunikation mit den Kunden intensivieren und sie über den Status ihrer Bestellungen auf dem Laufenden halten"],
+			["in Zukunft", "Kompensationen oder alternative Lösungen für beschädigte Möbel anbieten"]
+		]
+	},
+	{
+		"situation": "Sie arbeiten in einer Logistikfirma. In letzter Zeit gab es vermehrt Schwierigkeiten bei der termingerechten Auslieferung von Waren an die Kunden. Dies hat zu Unzufriedenheit bei den Kunden geführt und erfordert eine angemessene Reaktion.",
+		"aufgabe": "Überlegen Sie zusammen mit Ihrer Gesprächspartner, wie Sie in dieser Situation angemessen reagieren.",
+		"stickpunkte": [
+			["Ursachen", "Ursachen für die Verzögerungen bei der Auslieferung analysieren und beheben"],
+			["Kontrollen", "Kommunikation mit den Kunden verbessern und sie über den Status ihrer Lieferungen informieren"],
+			["Maßnahmen", "Effizienz der Logistikprozesse überprüfen und optimieren"],
+			["in Zukunft", "Maßnahmen ergreifen, um wiederholte Probleme bei der Auslieferung zu verhindern"]
 		]
 	}
 ]
