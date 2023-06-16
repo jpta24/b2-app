@@ -15,7 +15,8 @@
     "sass": "^1.63.4",
     "uuid": "^9.0.0"
   },
-  "scripts": {
+  "scripts": {"predeploy": "npm run build",
+  "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects",
     "test": "react-scripts test",
