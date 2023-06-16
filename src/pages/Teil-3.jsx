@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
-import Loading from '../components/Loading/Loading';
-
 import teil3 from '../data/teil3';
 
 const Teil3 = () => {
