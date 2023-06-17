@@ -113,7 +113,7 @@ const Teil3 = () => {
 						navigate(`/`);
 					}}
 				>
-					Cancel
+					Ende
 				</div>
 			</div>
 		</div>
