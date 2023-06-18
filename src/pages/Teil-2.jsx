@@ -83,7 +83,7 @@ const Teil2 = () => {
 								navigate(`/`);
 							}}
 						>
-							Ende
+							Benden
 						</div>
 					</div>
 				) : (
@@ -110,7 +110,7 @@ const Teil2 = () => {
 								navigate(`/`);
 							}}
 						>
-							Ende
+							Benden
 						</div>
 					</div>
 				)}

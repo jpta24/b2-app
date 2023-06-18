@@ -20,20 +20,23 @@ const Home = () => {
 	};
 	return (
 		<div>
-			<h1 className='py-4 title px-3'>B2 Mündliche Prüfung Übung</h1>
+			<h1 className='py-4 title px-3'>DTB B2 Mündliche Trainer</h1>
 			{homeState.step === 1 ? (
 				<div className='my-3 col-9 mx-auto'>
 					<div
 						className='col-10 mx-auto p-3 h2 card-btn my-5'
 						onClick={() => setHomeState({ ...homeState, step: 2 })}
 					>
-						Los geht
+						Los geht's
 					</div>
 					<div
 						className='col-10 mx-auto p-3 h2 card-btn my-5'
 						onClick={() => navigate('/bewertung')}
 					>
 						Bewertung
+					</div>
+					<div>
+						<img className='col-4' src={process.env.PUBLIC_URL + '/B2-app.png'} alt="" />
 					</div>
 				</div>
 			) : homeState.step === 2 ? (

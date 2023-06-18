@@ -8,7 +8,7 @@ const InactiveTN = ({ teil1State, setTeil1State }) => {
 				Bitte achten Sie auf die Präsentation Ihres Partners, um eine Frage zu
 				stelle.
 			</h2>
-			<p>
+			<p className='col-11 mx-auto'>
 				Drücken Sie 'Weiter', wenn Ihr Partner seine Präsentation abgeschlossen
 				und die Frage beantwortet hat.
 			</p>

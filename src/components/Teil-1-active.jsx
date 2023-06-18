@@ -29,7 +29,7 @@ const Teil1active = ({ teil1State, setTeil1State,textWithStrong }) => {
 				</div>
 			</div>
 			<div
-				className='col-6 mx-auto p-3 h2 card-btn my-3 bg-danger'
+				className='col-6 mx-auto p-3 h2 card-btn my-3 bg-danger text-dark'
 				onClick={() => {
 					navigate(`/`);
 				}}

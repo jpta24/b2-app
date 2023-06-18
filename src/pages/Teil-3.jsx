@@ -9,7 +9,7 @@ const Teil3 = () => {
 	const initialState = {
 		step: 1,
 		turn: 'a',
-		aufgabe: tn ==='a' ? Math.floor(Math.random() * teil3.length):'',
+		aufgabe: tn === 'a' ? Math.floor(Math.random() * teil3.length) : '',
 		pruefung,
 		tns,
 		tn,
@@ -81,30 +81,32 @@ const Teil3 = () => {
 							Bitte führen Sie ein Gespräch mit Ihrem/er Partner/ir, um eine
 							Lösung zum folgende Situation zu finden.
 						</p>
-						<p className='col-11 text-start text-font mx-auto'>
-							<strong>Situation: </strong>
-							{teil3[teil3State.aufgabe].situation}
-						</p>
-						<p className='col-11 text-start text-font mx-auto'>
-							<strong>Aufgabe: </strong>
-							{teil3[teil3State.aufgabe].aufgabe}
-						</p>
-						<p className='col-11 text-start text-font mx-auto fs-6'>
-							<strong>{teil3[teil3State.aufgabe].stickpunkte[0][0]}: </strong>
-							{teil3[teil3State.aufgabe].stickpunkte[0][1]}
-						</p>
-						<p className='col-11 text-start text-font mx-auto fs-6'>
-							<strong>{teil3[teil3State.aufgabe].stickpunkte[1][0]}: </strong>
-							{teil3[teil3State.aufgabe].stickpunkte[1][1]}
-						</p>
-						<p className='col-11 text-start text-font mx-auto fs-6'>
-							<strong>{teil3[teil3State.aufgabe].stickpunkte[2][0]}: </strong>
-							{teil3[teil3State.aufgabe].stickpunkte[2][1]}
-						</p>
-						<p className='col-11 text-start text-font mx-auto fs-6'>
-							<strong>{teil3[teil3State.aufgabe].stickpunkte[3][0]}: </strong>
-							{teil3[teil3State.aufgabe].stickpunkte[3][1]}
-						</p>
+						<div className='mx-auto p-3 h4 card-btn my-2 d-flex flex-column justify-content-around align-items-center'>
+							<p className='col-11 text-start text-font mx-auto'>
+								<strong>Situation: </strong>
+								{teil3[teil3State.aufgabe].situation}
+							</p>
+							<p className='col-11 text-start text-font mx-auto'>
+								<strong>Aufgabe: </strong>
+								{teil3[teil3State.aufgabe].aufgabe}
+							</p>
+							<p className='col-11 text-start text-font mx-auto fs-6'>
+								<strong>{teil3[teil3State.aufgabe].stickpunkte[0][0]}: </strong>
+								{teil3[teil3State.aufgabe].stickpunkte[0][1]}
+							</p>
+							<p className='col-11 text-start text-font mx-auto fs-6'>
+								<strong>{teil3[teil3State.aufgabe].stickpunkte[1][0]}: </strong>
+								{teil3[teil3State.aufgabe].stickpunkte[1][1]}
+							</p>
+							<p className='col-11 text-start text-font mx-auto fs-6'>
+								<strong>{teil3[teil3State.aufgabe].stickpunkte[2][0]}: </strong>
+								{teil3[teil3State.aufgabe].stickpunkte[2][1]}
+							</p>
+							<p className='col-11 text-start text-font mx-auto fs-6'>
+								<strong>{teil3[teil3State.aufgabe].stickpunkte[3][0]}: </strong>
+								{teil3[teil3State.aufgabe].stickpunkte[3][1]}
+							</p>
+						</div>
 					</>
 				)}
 				<div
@@ -113,7 +115,7 @@ const Teil3 = () => {
 						navigate(`/`);
 					}}
 				>
-					Ende
+					Benden
 				</div>
 			</div>
 		</div>
