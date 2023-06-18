@@ -6,6 +6,7 @@ import Loading from '../components/Loading/Loading';
 import Teil1active from '../components/Teil-1-active';
 import teil1 from '../data/teil1';
 import InactiveTN from '../components/InactiveTN';
+import Timer from '../components/Timer';
 
 const Teil1 = () => {
 	const { pruefung, tns, tn } = useParams();
@@ -83,6 +84,7 @@ const Teil1 = () => {
 								}}
 							></p>
 						</div>
+						<Timer/>
 
 						<div
 							className='col-8 mx-auto p-2 h2 card-btn my-5 text-dark'

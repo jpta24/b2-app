@@ -4,6 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Loading from '../components/Loading/Loading';
 
 import teil2 from '../data/teil2';
+import Timer from '../components/Timer';
 
 const Teil2 = () => {
 	const { pruefung, tns, tn } = useParams();
@@ -48,6 +49,7 @@ const Teil2 = () => {
 						<div className='mx-auto p-3 h4 card-btn my-2 d-flex flex-column justify-content-around align-items-center'>
 							<p className='fs-4'>{teil2[teil2State.frage]}</p>
 						</div>
+						<Timer/>
 
 						{((teil2State.pruefung === 'a' &&
 							teil2State.tns === '2' &&
@@ -92,6 +94,7 @@ const Teil2 = () => {
 							Bitte achten Sie auf die Frage Ihres Partners, um eine
 							Antwort zu geben und eine Gespräch ca. 2 min zu führen.
 						</h2>
+						<Timer/>
 						<div
 							className='col-8 mx-auto p-3 h2 card-btn my-5 text-dark'
 							onClick={() => {

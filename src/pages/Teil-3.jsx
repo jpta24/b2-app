@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
 import teil3 from '../data/teil3';
+import Timer from '../components/Timer';
 
 const Teil3 = () => {
 	const { pruefung, tns, tn } = useParams();
@@ -109,6 +110,8 @@ const Teil3 = () => {
 						</div>
 					</>
 				)}
+
+				<Timer />
 				<div
 					className='col-6 mx-auto p-3 h2 card-btn my-3 bg-danger'
 					onClick={() => {
