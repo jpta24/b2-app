@@ -1,4 +1,5 @@
 [
+	["1A", "1B", "1C", "2", "3", "Kriterium", "Kriterium", "Kriterium"],
 	{
 		"1a": [5, 3.5, 2, 0],
 		"1b": [5, 3.5, 2, 0],
@@ -15,8 +16,9 @@
 		"Erläutung",
 		"Kollegen Gespräch",
 		"Lösung finden",
-		"Kriterium II",
-		"Kriterium III",
-		"Kriterium IV"
-	]
+		"II",
+		"III",
+		"IV"
+	],
+	["1a", "1b", "1c", "2", "3", "kii", "kiii", "kiv"]
 ]
