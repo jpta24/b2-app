@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
+import { Modal, Button } from 'react-bootstrap';
+
 import teil3 from '../data/teil3';
 import Timer from '../components/Timer';
 
@@ -8,6 +10,7 @@ const Teil3 = () => {
 	const { pruefung, tns, tn } = useParams();
 	const navigate = useNavigate();
 	const initialState = {
+		showModal: false,
 		step: 1,
 		turn: 'a',
 		aufgabe: tn === 'a' ? Math.floor(Math.random() * teil3.length) : '',
@@ -69,7 +72,9 @@ const Teil3 = () => {
 							<div
 								className='col-8 mx-auto p-3 h2 card-btn my-4 text-dark'
 								onClick={() => {
-									setTeil3State({ ...teil3State, step: 2 });
+									!teil3State.aufgabe
+										? setTeil3State({ ...teil3State, showModal: true })
+										: setTeil3State({ ...teil3State, step: 2 });
 								}}
 							>
 								weiter
@@ -108,10 +113,11 @@ const Teil3 = () => {
 								{teil3[teil3State.aufgabe].stickpunkte[3][1]}
 							</p>
 						</div>
-					</>
-				)}
+						
 
 				<Timer />
+					</>
+				)}
 				<div
 					className='col-6 mx-auto p-3 h2 card-btn my-3 bg-danger'
 					onClick={() => {
@@ -121,6 +127,27 @@ const Teil3 = () => {
 					Benden
 				</div>
 			</div>
+			<Modal
+				show={teil3State.showModal}
+				onHide={() => setTeil3State({ ...teil3State, showModal: false })}
+				backdrop='static'
+				keyboard={false}
+			>
+				<Modal.Header closeButton>
+					<Modal.Title>Bitte </Modal.Title>
+				</Modal.Header>
+				<Modal.Body>
+					<p>Geben Sie ein Nummer ein</p>
+				</Modal.Body>
+				<Modal.Footer>
+					<Button
+						variant='secondary'
+						onClick={() => setTeil3State({ ...teil3State, showModal: false })}
+					>
+						Cancel
+					</Button>
+				</Modal.Footer>
+			</Modal>
 		</div>
 	);
 };

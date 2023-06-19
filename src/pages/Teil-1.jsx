@@ -54,6 +54,7 @@ const Teil1 = () => {
 	}, []);
 
 	if (teil1State.themas) {
+		//
 		return (
 			<div>
 				<h1 className='py-3 title px-3'>Übung Teil I</h1>
@@ -84,7 +85,7 @@ const Teil1 = () => {
 								}}
 							></p>
 						</div>
-						<Timer/>
+						<Timer />
 
 						<div
 							className='col-8 mx-auto p-2 h2 card-btn my-5 text-dark'
@@ -130,7 +131,36 @@ const Teil1 = () => {
 								}`}</h3>
 							</div>
 						)}
-						{teil1State.tns === '1' && teil1State.pruefung === 'a' ? (
+						{((teil1State.pruefung === 'a' &&
+							teil1State.tns === '1' &&
+							teil1State.tn === 'a' &&
+							teil1State.turn === 'a') ||
+							(teil1State.pruefung === 'a' &&
+								teil1State.tns === '2' &&
+								teil1State.tn === 'b' &&
+								teil1State.turn === 'b')) && (
+							<div
+								className='col-8 mx-auto p-3 h2 card-btn my-4 text-dark'
+								onClick={() => {
+									navigate(`/teil-2/a/${teil1State.tns}/${teil1State.tn}`);
+								}}
+							>
+								weiter
+							</div>
+						)}
+						{teil1State.tns === '2' &&
+							teil1State.tn === 'a' &&
+							teil1State.turn === 'a' && (
+								<div
+									className='col-8 mx-auto p-3 h2 card-btn my-4 text-dark'
+									onClick={() => {
+										setTeil1State({ ...teil1State, turn: 'b', step: 1 });
+									}}
+								>
+									weiter
+								</div>
+							)}
+						{/* {teil1State.tns === '1' && teil1State.pruefung === 'a' ? (
 							<div
 								className='col-8 mx-auto p-3 h2 card-btn my-4 text-dark'
 								onClick={() => {
@@ -161,12 +191,12 @@ const Teil1 = () => {
 							<div
 								className='col-8 mx-auto p-3 h2 card-btn my-4 text-dark'
 								onClick={() => {
-									setTeil1State({ ...teil1State, turn: 'b', step: 1 });
+									navigate(`/`);
 								}}
 							>
 								weiter
 							</div>
-						)}
+						)} */}
 						<div
 							className='col-6 mx-auto p-3 h2 card-btn my-5 bg-danger text-dark'
 							onClick={() => {
