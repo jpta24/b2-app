@@ -1,0 +1,24 @@
+[
+	["1A", "1B", "1C", "2", "3", "Kriterium", "Kriterium", "Kriterium"],
+	{
+		"1a": [5, 3.5, 2, 0,"X"],
+		"1b": [5, 3.5, 2, 0,"X"],
+		"1c": [2, 1.5, 1, 0,"X"],
+		"2": [8, 6, 3, 0,"X"],
+		"3": [10, 7.5, 4, 0,"X"],
+		"kii": [10, 7.5, 4, 0,"X"],
+		"kiii": [10, 7.5, 4, 0,"X"],
+		"kiv": [10, 7.5, 4, 0,"X"]
+	},
+	[
+		"Vortrag",
+		"Prüferfragen",
+		"Erläutung",
+		"Kollegen Gespräch",
+		"Lösung finden",
+		"II",
+		"III",
+		"IV"
+	],
+	["1a", "1b", "1c", "2", "3", "kii", "kiii", "kiv"]
+]
