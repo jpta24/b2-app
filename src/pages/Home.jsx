@@ -29,14 +29,14 @@ const Home = () => {
 					>
 						Los geht's
 					</div>
-					{/* <div
+					<div
 						className='col-10 mx-auto p-3 h2 card-btn my-5'
 						onClick={() => navigate('/bewertung')}
 					>
 						Bewertung
-					</div> */}
+					</div>
 					<div>
-						<img className='col-4' src={process.env.PUBLIC_URL + '/B2-app.png'} alt="" />
+						<img className='col-4 col-md-2' src={process.env.PUBLIC_URL + '/B2-app.png'} alt="" />
 					</div>
 				</div>
 			) : homeState.step === 2 ? (
