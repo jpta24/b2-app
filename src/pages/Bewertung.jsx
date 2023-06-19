@@ -58,7 +58,7 @@ const Bewertung = () => {
 				<>
 					<h4 className='text-dark my-4 col-11 mx-auto'>
 						Bitte geben Sie die Bewertung ein, die Ihnen Ihr Bewerter gegeben
-						hat. Wenn etwas Nicht bewert wurde, markieren Sie "X" ein.
+						hat. Wenn etwas nicht bewert wurde, markieren Sie "X" ein.
 					</h4>
 					<table className='bg-light col-11 mx-auto'>
 						<thead>
@@ -170,7 +170,7 @@ const Bewertung = () => {
 				</Modal.Header>
 				<Modal.Body>
 					<p>
-						Markieren Sie alle Bewertungen Teil ein, wenn etwas Nicht bewert
+						Markieren Sie alle Bewertungen Teil ein, wenn etwas nicht bewert
 						wurde, markieren Sie "X" ein.
 					</p>
 				</Modal.Body>
