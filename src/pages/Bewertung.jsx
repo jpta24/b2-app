@@ -145,7 +145,7 @@ const Bewertung = () => {
 						</ul>
 
 						<h2>{`TOTAL ${erreichtPunkte} / ${totalPunkte}`}</h2>
-						<h2>{`${(erreichtPunkte / totalPunkte) * 100}%`}</h2>
+						<h2>{`${((erreichtPunkte / totalPunkte) * 100).toFixed(2)}%`}</h2>
 					</div>
 				</>
 			)}
